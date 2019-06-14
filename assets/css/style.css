@@ -5,3 +5,43 @@
   min-height: 100%;
 }
 
+.accordion {
+  background-color: #d3d3d3;
+  color: #969696;
+  cursor: pointer;
+  padding: 10px, 20px, 20px,20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.active, .accordion:hover {
+  background-color: #e8e4e4; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #5052b5;
+  overflow: hidden;
+}
+
+.img-responsive{
+    height:auto;
+    width:100%;
+    
+}
+
+.word{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
